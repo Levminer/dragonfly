@@ -1,5 +1,5 @@
 /* Dragonfly CSS */
-/* 1.1.0 */
+/* 1.2.0 */
 /* Created by: Levminer */
 
 /* vars */
@@ -37,35 +37,35 @@ body {
 .link1:link {
 	color: var(--df_red);
 	font-size: 2rem;
-	text-decoration: underline;
+	text-decoration: none;
 	transition: 0.2s ease-in;
 }
 
 .link1:hover {
 	color: var(--df_white) !important;
-	text-decoration: underline dashed !important;
+	text-decoration: none !important;
 }
 
 .link1:visited {
 	color: var(--df_red);
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .link2:link {
 	color: var(--df_red);
 	font-size: 2rem;
-	text-decoration: none;
+	text-decoration: underline;
 	transition: 0.2s ease-in;
 }
 
 .link2:hover {
 	color: var(--df_white) !important;
-	text-decoration: none !important;
+	text-decoration: underline dashed !important;
 }
 
 .link2:visited {
 	color: var(--df_red);
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* buttons */
@@ -281,6 +281,18 @@ header {
 }
 
 /* inputs */
+.input1:focus::placeholder,
+.input2:focus::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
+.input1:hover::placeholder,
+.input2:hover::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
 .input1 {
 	color: var(--df_white);
 	background: var(--df_red);
@@ -571,9 +583,45 @@ header {
 	border-radius: 30px;
 }
 
+/* footer */
 footer {
 	margin: auto;
 	margin-top: 50px;
 	width: 100%;
 	text-align: center;
+}
+
+/* code */
+code {
+	background: var(--df_black);
+	color: var(--df_white);
+	padding: 10px 10px;
+	border-radius: 15px;
+	font-size: 1rem;
+}
+
+/* var */
+var {
+	font-style: normal;
+	color: #cf4b48;
+	font-size: 1rem;
+}
+
+/* samp */
+samp {
+	font-style: normal;
+	color: #56b1ff;
+	font-size: 1rem;
+}
+
+/* pre  */
+pre {
+	white-space: normal;
+}
+pre > code {
+	margin: 30px 0px 30px 0px;
+	line-height: 30px;
+	display: block;
+	width: auto;
+	float: left;
 }
