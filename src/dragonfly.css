@@ -1,5 +1,5 @@
 /* Dragonfly CSS */
-/* 1.0.0 */
+/* 1.1.0 */
 /* Created by: Levminer */
 
 /* vars */
@@ -14,7 +14,9 @@
 body {
 	color: var(--df_white);
 	box-sizing: border-box;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 /* selection */
@@ -276,4 +278,302 @@ header {
 	border-radius: 50px;
 	border: 1px solid var(--df_red);
 	color: var(--df_red);
+}
+
+/* inputs */
+.input1 {
+	color: var(--df_white);
+	background: var(--df_red);
+	border: 1px solid var(--df_red);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	cursor: text;
+	text-align: center;
+	transition: 0.2s ease-in;
+}
+
+.input1:hover {
+	color: var(--df_red);
+	background-color: var(--df_gray);
+	border: 1px solid var(--df_red);
+}
+
+.input1::placeholder {
+	color: var(--df_white);
+}
+
+.input2 {
+	color: var(--df_red);
+	background: var(--df_gray);
+	border: 1px solid var(--df_red);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	cursor: text;
+	text-align: center;
+	transition: 0.2s ease-in;
+}
+
+.input2:hover {
+	color: var(--df_white);
+	background-color: var(--df_gray);
+	border: 1px solid var(--df_white);
+}
+
+.input2::placeholder {
+	color: var(--df_red);
+}
+
+/* selects */
+.select1 {
+	color: var(--df_white);
+	background: var(--df_red);
+	border: 1px solid var(--df_red);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.2s ease-in;
+	-webkit-appearance: none;
+}
+
+.select1:hover {
+	color: var(--df_red);
+	background-color: var(--df_gray);
+	border: 1px solid var(--df_red);
+}
+
+.select2 {
+	color: var(--df_red);
+	background: var(--df_gray);
+	border: 1px solid var(--df_red);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.2s ease-in;
+	-webkit-appearance: none;
+}
+
+.select2:hover {
+	color: var(--df_white);
+	background-color: var(--df_gray);
+	border: 1px solid var(--df_white);
+}
+
+/* radio */
+.radio1 {
+	background-color: var(--df_red);
+	color: var(--df_white);
+	border: 1px var(--df_red) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.radio1:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.radio1:hover {
+	background-color: var(--df_gray) !important;
+	border: 1px var(--df_red) solid;
+	color: var(--df_red);
+}
+
+.radio1:checked {
+	background-color: var(--df_red);
+}
+
+.radio2 {
+	background-color: var(--df_gray);
+	color: var(--df_red);
+	border: 1px var(--df_red) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.radio2:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.radio2:hover {
+	background-color: var(--df_gray) !important;
+	border: 1px var(--df_white) solid;
+	color: var(--df_white);
+}
+
+.radio2:checked {
+	background-color: var(--df_gray);
+}
+
+/* checkbox */
+.checkbox1 {
+	background-color: var(--df_red);
+	color: var(--df_white);
+	border: 1px var(--df_red) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.checkbox1:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.checkbox1:hover {
+	background-color: var(--df_gray) !important;
+	border: 1px var(--df_red) solid;
+	color: var(--df_red);
+}
+
+.checkbox1:checked {
+	background-color: var(--df_red);
+}
+
+.checkbox2 {
+	background-color: var(--df_gray);
+	color: var(--df_red);
+	border: 1px var(--df_red) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.checkbox2:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.checkbox2:hover {
+	background-color: var(--df_gray) !important;
+	border: 1px var(--df_white) solid;
+	color: var(--df_white);
+}
+
+.checkbox2:checked {
+	background-color: var(--df_gray);
+}
+
+/* divs*/
+.center {
+	background-color: var(--df_gray);
+	position: relative;
+	top: 200px;
+	text-align: center;
+	padding-top: 30px;
+	margin: 130px auto;
+	height: 300px;
+	width: 600px;
+	border-radius: 30px;
+}
+
+.left {
+	background-color: var(--df_gray);
+	position: relative;
+	top: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-left: 25px;
+	height: 300px;
+	width: 600px;
+	border-radius: 30px;
+}
+
+.right {
+	background-color: var(--df_gray);
+	position: relative;
+	top: 200px;
+	float: right;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-right: 25px;
+	height: 300px;
+	width: 600px;
+	border-radius: 30px;
+}
+
+.left-center {
+	background-color: var(--df_gray);
+	position: relative;
+	top: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-left: 175px;
+	height: 300px;
+	width: 600px;
+	border-radius: 30px;
+}
+
+.right-center {
+	background-color: var(--df_gray);
+	position: relative;
+	top: 200px;
+	float: right;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-right: 175px;
+	height: 300px;
+	width: 600px;
+	border-radius: 30px;
+}
+
+footer {
+	margin: auto;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
 }

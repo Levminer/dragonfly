@@ -1,4 +1,4 @@
-# Dragofly CSS
+# Dragonfly CSS
 
 -   A simple CSS framework
 
@@ -8,17 +8,13 @@
 
 ### Usage
 
--   Use from jsDelivr CDN:
+1.  Link tag:
 
-1.  Link tag: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Levminer/dragonfly@1.3.0/dragonfly.css">`
+-   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Levminer/dragonfly@1.3.0/src/dragonfly.css">`
 
-2.  Minified link tag: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Levminer/dragonfly@1.3.0/dragonfly.min.css">`
+2.  Minified link tag:
 
--   Use locally:
-
-1.  Link tag: `<link rel="stylesheet" href="./dragonfly.css">`
-
-2.  Minified link tag: `<link rel="stylesheet" href="./dragonfly.css">`
+-   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Levminer/dragonfly@1.3.0/src/dragonfly.min.css">`
 
 ### License
 
