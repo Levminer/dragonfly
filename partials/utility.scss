@@ -1,0 +1,38 @@
+/* root */
+:root {
+	/* main colors */
+	--df_primary_color: rgb(222, 10, 10);
+	--df_secondary_color: rgb(255, 255, 255);
+	--df_tertiary_color: rgb(0, 0, 0);
+	/* background colors */
+	--df_primary_background: rgb(10, 10, 10);
+	--df_secondary_background: rgb(0, 0, 0);
+	/* gradiant colors */
+	--df_gradiant_start: rgb(20, 20, 20);
+	--df_gradiant_end: rgb(30, 30, 30);
+}
+
+/* body */
+body {
+	color: var(--df_secondary_color);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background: var(--df_primary_background);
+}
+
+/* selection */
+::selection {
+	color: var(--df_tertiary_color);
+	background: var(--df_secondary_color);
+}
+
+/* all */
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}

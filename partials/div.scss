@@ -1,0 +1,68 @@
+/* divs*/
+.center {
+	background-color: var(--df_secondary_background);
+	position: relative;
+	top: 200px;
+	text-align: center;
+	padding-top: 30px;
+	margin: 130px auto;
+	height: 300px;
+	width: 600px;
+	border-radius: 1.8rem;
+}
+
+.left {
+	background-color: var(--df_secondary_background);
+	position: relative;
+	top: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-left: 25px;
+	height: 300px;
+	width: 600px;
+	border-radius: 1.8rem;
+}
+
+.right {
+	background-color: var(--df_secondary_background);
+	position: relative;
+	top: 200px;
+	float: right;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-right: 25px;
+	height: 300px;
+	width: 600px;
+	border-radius: 1.8rem;
+}
+
+.left_center {
+	background-color: var(--df_secondary_background);
+	position: relative;
+	top: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-left: 175px;
+	height: 300px;
+	width: 600px;
+	border-radius: 1.8rem;
+}
+
+.right_center {
+	background-color: var(--df_secondary_background);
+	position: relative;
+	top: 200px;
+	float: right;
+	text-align: center;
+	padding-top: 30px;
+	margin: 50px auto;
+	margin-right: 175px;
+	height: 300px;
+	width: 600px;
+	border-radius: 1.8rem;
+}

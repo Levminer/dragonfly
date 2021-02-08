@@ -1,0 +1,34 @@
+/* links */
+.link1:link {
+	color: var(--df_primary_color);
+	font-size: 2rem;
+	text-decoration: none;
+	transition: 0.2s ease-in;
+}
+
+.link1:hover {
+	color: var(--df_secondary_color) !important;
+	text-decoration: none !important;
+}
+
+.link1:visited {
+	color: var(--df_primary_color);
+	text-decoration: none;
+}
+
+.link2:link {
+	color: var(--df_primary_color);
+	font-size: 2rem;
+	text-decoration: underline;
+	transition: 0.2s ease-in;
+}
+
+.link2:hover {
+	color: var(--df_secondary_color) !important;
+	text-decoration: underline dashed !important;
+}
+
+.link2:visited {
+	color: var(--df_primary_color);
+	text-decoration: underline;
+}

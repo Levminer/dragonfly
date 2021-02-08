@@ -1,0 +1,77 @@
+/* nav */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+	font-size: 1.5rem;
+	background-color: var(--df_secondary_background);
+}
+
+.navbar_logo {
+	cursor: pointer;
+	color: var(--df_primary_color);
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.2s ease-in;
+}
+
+.navbar_logo:hover {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar_link a,
+.navbar_button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.navbar_link {
+	list-style: none;
+	display: flex;
+}
+
+.navbar_link li {
+	padding: 0px 20px;
+}
+
+.navbar_link li a {
+	transition: 0.2s ease-in;
+	color: var(--df_secondary_color);
+	text-decoration: none;
+}
+
+.navbar_link li a:hover {
+	color: var(--df_primary_color);
+}
+
+.navbar_button {
+	color: white;
+	padding: 10px 25px;
+	background-color: var(--df_primary_color);
+	border: none;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	border: 1px solid var(--df_primary_color);
+}
+
+.navbar_button:hover {
+	background: var(--df_primary_background);
+	border-radius: 1.8rem;
+	border: 1px solid var(--df_primary_color);
+	color: var(--df_primary_color);
+}
+
+/* footer */
+footer {
+	margin: auto;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	background-color: var(--df_secondary_background);
+}

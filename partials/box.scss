@@ -1,0 +1,137 @@
+/* radio */
+.radio1 {
+	background-color: var(--df_primary_color);
+	color: var(--df_secondary_color);
+	border: 1px var(--df_primary_color) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.radio1:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.radio1:hover {
+	background-color: var(--df_primary_background) !important;
+	border: 1px var(--df_primary_color) solid;
+	color: var(--df_primary_color);
+}
+
+.radio1:checked {
+	background-color: var(--df_primary_color);
+}
+
+.radio2 {
+	background-color: var(--df_primary_background);
+	color: var(--df_primary_color);
+	border: 1px var(--df_primary_color) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.radio2:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.radio2:hover {
+	background-color: var(--df_primary_background) !important;
+	border: 1px var(--df_secondary_color) solid;
+	color: var(--df_secondary_color);
+}
+
+.radio2:checked {
+	background-color: var(--df_primary_background);
+}
+
+/* checkbox */
+.checkbox1 {
+	background-color: var(--df_primary_color);
+	color: var(--df_secondary_color);
+	border: 1px var(--df_primary_color) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.checkbox1:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.checkbox1:hover {
+	background-color: var(--df_primary_background) !important;
+	border: 1px var(--df_primary_color) solid;
+	color: var(--df_primary_color);
+}
+
+.checkbox1:checked {
+	background-color: var(--df_primary_color);
+}
+
+.checkbox2 {
+	background-color: var(--df_primary_background);
+	color: var(--df_primary_color);
+	border: 1px var(--df_primary_color) solid;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.checkbox2:checked::before {
+	font-family: 15px Open Sans, sans-serif;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	content: "\02143";
+	transform: rotate(40deg);
+	font-weight: bolder;
+}
+
+.checkbox2:hover {
+	background-color: var(--df_primary_background) !important;
+	border: 1px var(--df_secondary_color) solid;
+	color: var(--df_secondary_color);
+}
+
+.checkbox2:checked {
+	background-color: var(--df_primary_background);
+}

@@ -1,0 +1,90 @@
+/* code */
+code {
+	background: var(--df_secondary_background);
+	color: var(--df_secondary_color);
+	padding: 10px 10px;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+}
+
+/* var */
+var {
+	font-style: normal;
+	color: #cf4b48;
+	font-size: 1rem;
+}
+
+/* samp */
+samp {
+	font-style: normal;
+	color: #56b1ff;
+	font-size: 1rem;
+}
+
+/* pre  */
+pre {
+	white-space: normal;
+}
+
+pre > code {
+	margin: 30px 0px 30px 0px;
+	line-height: 30px;
+	display: block;
+	width: auto;
+	float: left;
+}
+
+/* popup */
+.popup {
+	padding: 15px;
+	background-color: var(--df_primary_color);
+	color: var(--df_secondary_color);
+	text-align: center;
+	font-weight: bold;
+	display: block;
+}
+
+.popup_close1 {
+	margin-left: 15px;
+	color: var(--df_secondary_color);
+	font-weight: bold;
+	float: right;
+	font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.popup_close2 {
+	margin-right: 15px;
+	color: white;
+	font-weight: bold;
+	float: left;
+	font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.popup_close1:hover {
+	color: var(--df_primary_background);
+}
+
+.popup_close2:hover {
+	color: var(--df_primary_background);
+}
+
+.popup_link:link {
+	text-decoration: underline;
+	color: var(--df_secondary_color);
+	transition: 0.2s ease-in;
+}
+
+.popup_link:hover {
+	text-decoration: underline !important;
+	color: var(--df_primary_background) !important;
+}
+.popup_link:visited {
+	text-decoration: underline;
+	color: var(--df_secondary_color);
+}

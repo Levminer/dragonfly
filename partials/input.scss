@@ -1,0 +1,156 @@
+/* inputs */
+.input1:focus::placeholder,
+.input2:focus::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
+.input1:hover::placeholder,
+.input2:hover::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
+.input1 {
+	color: var(--df_secondary_color);
+	background: var(--df_primary_color);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 1.8rem;
+	cursor: text;
+	text-align: center;
+	transition: 0.2s ease-in;
+}
+
+.input1:hover {
+	color: var(--df_primary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+}
+
+.input1::placeholder {
+	color: var(--df_secondary_color);
+}
+
+.input2 {
+	color: var(--df_primary_color);
+	background: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 1.8rem;
+	cursor: text;
+	text-align: center;
+	transition: 0.2s ease-in;
+}
+
+.input2:hover {
+	color: var(--df_secondary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_secondary_color);
+}
+
+.input2::placeholder {
+	color: var(--df_primary_color);
+}
+
+/* selects */
+.select1 {
+	color: var(--df_secondary_color);
+	background: var(--df_primary_color);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.2s ease-in;
+	-webkit-appearance: none;
+}
+
+.select1:hover {
+	color: var(--df_primary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+}
+
+.select2 {
+	color: var(--df_primary_color);
+	background: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.2s ease-in;
+	-webkit-appearance: none;
+}
+
+.select2:hover {
+	color: var(--df_secondary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_secondary_color);
+}
+
+.textarea1:focus::placeholder,
+.textarea2:focus::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
+.textarea1:hover::placeholder,
+.textarea2:hover::placeholder {
+	transition: 0.2s ease-in;
+	color: transparent;
+}
+
+/* textareas */
+textarea {
+	resize: none;
+}
+
+.textarea1 {
+	color: var(--df_secondary_color);
+	background: var(--df_primary_color);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-align: center;
+	transition: 0.2s ease-in;
+	text-align: center;
+}
+
+.textarea1:hover {
+	color: var(--df_primary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+}
+
+.textarea1::placeholder {
+	color: var(--df_secondary_color);
+}
+
+.textarea2 {
+	color: var(--df_primary_color);
+	background: var(--df_primary_background);
+	border: 1px solid var(--df_primary_color);
+	font-size: 1rem;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-align: center;
+	transition: 0.2s ease-in;
+	text-align: center;
+}
+
+.textarea2:hover {
+	color: var(--df_secondary_color);
+	background-color: var(--df_primary_background);
+	border: 1px solid var(--df_secondary_color);
+}
+
+.textarea2::placeholder {
+	color: var(--df_primary_color);
+}
