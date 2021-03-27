@@ -1,7 +1,7 @@
 /* code */
 code {
-	background: var(--df_secondary_background);
-	color: var(--df_secondary_color);
+	background: $df_secondary_background;
+	color: $df_secondary_color;
 	padding: 10px 10px;
 	border-radius: 0.5rem;
 	font-size: 1rem;
@@ -34,11 +34,11 @@ pre > code {
 	float: left;
 }
 
-/* popup */
+//* popup */
 .popup {
 	padding: 15px;
-	background-color: var(--df_primary_color);
-	color: var(--df_secondary_color);
+	background-color: $df_primary_color;
+	color: $df_secondary_color;
 	text-align: center;
 	font-weight: bold;
 	display: block;
@@ -46,7 +46,7 @@ pre > code {
 
 .popup_close1 {
 	margin-left: 15px;
-	color: var(--df_secondary_color);
+	color: $df_secondary_color;
 	font-weight: bold;
 	float: right;
 	font-size: 20px;
@@ -67,24 +67,24 @@ pre > code {
 }
 
 .popup_close1:hover {
-	color: var(--df_primary_background);
+	color: $df_primary_background;
 }
 
 .popup_close2:hover {
-	color: var(--df_primary_background);
+	color: $df_primary_background;
 }
 
 .popup_link:link {
 	text-decoration: underline;
-	color: var(--df_secondary_color);
+	color: $df_secondary_color;
 	transition: 0.2s ease-in;
 }
 
 .popup_link:hover {
 	text-decoration: underline !important;
-	color: var(--df_primary_background) !important;
+	color: $df_primary_background !important;
 }
 .popup_link:visited {
 	text-decoration: underline;
-	color: var(--df_secondary_color);
+	color: $df_secondary_color;
 }

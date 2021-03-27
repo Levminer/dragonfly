@@ -5,12 +5,12 @@ header {
 	align-items: center;
 	padding: 10px 10%;
 	font-size: 1.5rem;
-	background-color: var(--df_secondary_background);
+	background-color: $df_secondary_background;
 }
 
 .navbar_logo {
 	cursor: pointer;
-	color: var(--df_primary_color);
+	color: $df_primary_color;
 	text-decoration: none;
 	font-weight: bold;
 	transition: 0.2s ease-in;
@@ -41,30 +41,30 @@ header {
 
 .navbar_link li a {
 	transition: 0.2s ease-in;
-	color: var(--df_secondary_color);
+	color: $df_secondary_color;
 	text-decoration: none;
 }
 
 .navbar_link li a:hover {
-	color: var(--df_primary_color);
+	color: $df_primary_color;
 }
 
 .navbar_button {
 	color: white;
 	padding: 10px 25px;
-	background-color: var(--df_primary_color);
+	background-color: $df_primary_color;
 	border: none;
 	border-radius: 1.8rem;
 	cursor: pointer;
 	transition: 0.2s ease-in;
-	border: 1px solid var(--df_primary_color);
+	border: 1px solid $df_primary_color;
 }
 
 .navbar_button:hover {
-	background: var(--df_primary_background);
+	background: $df_primary_background;
 	border-radius: 1.8rem;
-	border: 1px solid var(--df_primary_color);
-	color: var(--df_primary_color);
+	border: 1px solid $df_primary_color;
+	color: $df_primary_color;
 }
 
 /* footer */
@@ -73,5 +73,5 @@ footer {
 	margin-top: 100px;
 	width: 100%;
 	text-align: center;
-	background-color: var(--df_secondary_background);
+	background-color: $df_secondary_background;
 }

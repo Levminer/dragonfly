@@ -1,8 +1,8 @@
 /* buttons */
 .button1 {
-	color: var(--df_secondary_color);
-	background: var(--df_primary_color);
-	border: 1px solid var(--df_primary_color);
+	color: $df_secondary_color;
+	background: $df_primary_color;
+	border: 1px solid $df_primary_color;
 	font-size: 1.25rem;
 	padding: 15px 30px;
 	border-radius: 30px;
@@ -12,15 +12,15 @@
 }
 
 .button1:hover {
-	border: 1px solid var(--df_primary_color);
-	background: var(--df_primary_background);
-	color: var(--df_primary_color);
+	border: 1px solid $df_primary_color;
+	background: $df_primary_background;
+	color: $df_primary_color;
 }
 
 .button2 {
-	color: var(--df_primary_color);
-	background: var(--df_primary_background);
-	border: 1px solid var(--df_primary_color);
+	color: $df_primary_color;
+	background: $df_primary_background;
+	border: 1px solid $df_primary_color;
 	font-size: 1.25rem;
 	padding: 15px 30px;
 	border-radius: 30px;
@@ -30,7 +30,7 @@
 }
 
 .button2:hover {
-	border: 1px solid var(--df_secondary_color);
-	background: var(--df_primary_background);
-	color: var(--df_secondary_color);
+	border: 1px solid $df_secondary_color;
+	background: $df_primary_background;
+	color: $df_secondary_color;
 }
